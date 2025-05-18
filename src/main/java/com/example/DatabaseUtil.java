@@ -6,8 +6,8 @@ import java.sql.SQLException;
 
 public class DatabaseUtil {
     private static final String URL = "jdbc:mysql://localhost:3306/registration_form?useSSL=false";
-    private static final String USER = "root";
-    private static final String PASSWORD = "Darshan@2004";
+    private static final String USER = "username";
+    private static final String PASSWORD = "password";
 
     public static Connection getConnection() throws SQLException {
         try {
